@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <!--  CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    
+    <header>
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/wolf.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Laboratorio #6
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pagina 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="pagina2.html">Pagina 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="pagina3.html">Página 3</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <div class="container d-flex align-items-center flex-column">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="encabezado">
+                    <h1 class="m-3 h1">Attack On Titan</h1>
+                </div>
+
+                <!-- CARD -->
+                <div class="card bg-secondary" style="width: 35rem;">
+                    <img src="img/AOT.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase text-white">Attack on Titan Season 4</h5>
+                        <p class="card-text text-white">
+                            Ataque a los Titanes es un anime basado en el manga homónimo de Hajime Isayama, 
+                            y fue uno de los mayores éxitos durante el 2013, lo que ha inspirado varios spin offs 
+                            y hasta una película de acción real programada para el 2015.                           </p>
+                    </div>
+
+                    <!-- Acordion dentro de card -->
+                    <div class="accordion text-dark" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                              Historia
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                              <strong>Shingeki no kyojin</strong>
+                              Surgió como manga en 2009, por el autor Hajime Isayama . El éxito de esta obra le valió ser
+                               llevada al anime, y su historia podría enmarcarse en los géneros ciencia ficción steampunk y fantasía. 
+                               El protagonista es Eren Jaeger, quien ve a su familia morir bajo un ataque de los titanes y quiere dedicar 
+                               su vida a exterminarlos, pero mientras va aprendiendo sobre la historia de su país y de los gigantes, 
+                               descubre secretos oscuros que destrozan los cimientos de su mundo.
+                               <img src="img/A3.jpg" class="card-img-bottom">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              Sobre la cuarta temporada
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                              <strong>Se dividio en 2 partes</strong> 
+                              La temporada final también fue dividida en dos partes, la primera tanda de episodios pudo ser disfrutada por los 
+                              fans entre diciembre de 2020 y marzo de 2021. No obstante, tuvo algunas polémicas por el cambio de estudio de animación. 
+                              Las primeras tres temporadas estuvieron a cargo de WIT Studio, y su trabajo fue muy bien recibido por fans y críticos, 
+                              pero la cuarta fue desarrollada por MAPPA, y el enojo de los fanáticos fue tan grande que llegaron a acosar a los creativos de la empresa.
+                              <img src="img/A1.JPG" class="card-img-bottom">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Se revela fecha de Cuarta Temporada Parte 2
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                              <strong>La ultima temporada llegará el 9 de enero del 2022</strong> 
+                              <p>Ya tenemos fecha final para la última temporada de 'Attack on Titan' o 'Shingeki no Kyojin'.
+                              Shingeki no Kyojin (Attack on Titan) ha anunciado su fecha de estreno para el próximo 9 de enero de 2022.</p> 
+                              <p>Es decir, a comienzos del año que viene, la producción anime de mayor éxito de los últimos tiempos regresará 
+                              a la televisión y las principales plataformas para encaminarse a su conclusión.</p>  
+                              <p>Junto al anuncio del estreno de los últimos episodios a partir del 9 de enero, se ha presentado un teaser.
+                              El estudio de animación Studio MAPPA mostró una gran cantidad de tomas generadas por computadora
+                              Los espectadores responden bien a las tomas generadas por CGI esta vez, ya que su uso en la cuarta temporada
+                              hasta ahora ha recibido criticas mixtas.</p>
+                              <img src="img/A2.jpg" class="card-img-bottom">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     
+                </div>
+
+                <div class="encabezado">
+                    <h4 class="m-3 h4 text-white">Trailer oficial de la cuarta temporada (Parte 2) </h4>
+                </div>
+                <!-- Video -->
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/e_7Mliqr8Pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>  
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
